@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ClientManager
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:challengefrances
+    username: sa
+    password: sa
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: 'create-drop'
+    show-sql: true
